@@ -1,0 +1,206 @@
+.paymentCard{
+    width:800px;
+    min-height:600px;
+
+    background:white;
+
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+
+    display:flex;
+    flex-direction:column;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.paymentContent{
+    padding:30px;
+}
+
+.paymentContent h1{
+    margin:0;
+    font-size:32px;
+    font-weight:700;
+}
+
+.insuranceBox{
+    margin-top:30px;
+
+    background:#f8fafc;
+
+    border-radius:12px;
+
+    padding:20px 30px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.insuranceLeft{
+    display:flex;
+    gap:15px;
+    align-items:flex-start;
+}
+
+.checkBox{
+    width:24px;
+    height:24px;
+    cursor:pointer;
+}
+
+.insuranceTitle{
+    margin:0;
+    font-size:18px;
+}
+
+.coveredLink{
+    margin-top:10px;
+    color:#2563eb;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.shield{
+    font-size:50px;
+}
+
+.couponBox{
+    margin-top:25px;
+
+    background:#dff5ea;
+
+    border-radius:12px;
+
+    padding:20px 30px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.couponLeft{
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+
+.couponIcon{
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+
+    background:#10b981;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:20px;
+    font-weight:bold;
+}
+
+.couponCode{
+    margin:0;
+    font-size:18px;
+    font-weight:700;
+}
+
+.couponText{
+    margin-top:6px;
+    color:#6b7280;
+}
+
+.removeCoupon{
+    font-size:28px;
+    cursor:pointer;
+}
+
+.divider{
+    margin:30px 0;
+    border-top:1px solid #e5e7eb;
+}
+
+.deliveryHeading{
+    margin-bottom:20px;
+    font-size:24px;
+}
+
+.deliveryOptions{
+    display:flex;
+    gap:20px;
+}
+
+.deliveryCard{
+    flex:1;
+
+    border:1px solid #d1d5db;
+    border-radius:12px;
+
+    padding:25px;
+}
+
+.activeCard{
+    background:#eef2ff;
+    border:2px solid #4f46e5;
+}
+
+.deliveryType{
+    font-size:20px;
+    font-weight:700;
+
+    margin-bottom:20px;
+}
+
+.priceRow{
+    display:flex;
+    gap:10px;
+    align-items:center;
+
+    margin-bottom:20px;
+}
+
+.currentPrice{
+    font-size:24px;
+    font-weight:700;
+}
+
+.oldPrice{
+    text-decoration:line-through;
+    color:#6b7280;
+    font-size:18px;
+}
+
+.deliveryCard p{
+    margin:8px 0;
+    font-size:18px;
+}
+
+.paymentFooter{
+    margin-top:auto;
+
+    border-top:1px solid #e5e7eb;
+
+    padding:25px 30px;
+
+    display:flex;
+    justify-content:flex-end;
+}
+
+.payBtn{
+    width:220px;
+    height:70px;
+
+    border:none;
+    border-radius:10px;
+
+    background:#1f2233;
+    color:white;
+
+    font-size:20px;
+    cursor:pointer;
+}
