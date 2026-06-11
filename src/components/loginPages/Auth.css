@@ -1,0 +1,141 @@
+.authPage{
+    min-height:100vh;
+
+    display:flex;
+
+    background:#f8fafc;
+}
+
+.authLeft{
+    flex:1;
+
+    background:linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b
+    );
+
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:60px;
+}
+
+.brand{
+    max-width:450px;
+}
+
+.brand h1{
+    font-size:64px;
+    margin-bottom:20px;
+}
+
+.brand p{
+    font-size:20px;
+    line-height:1.7;
+    color:#cbd5e1;
+}
+
+.authRight{
+    flex:1;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.authCard{
+    width:420px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.08);
+}
+
+.authCard h2{
+    margin-bottom:8px;
+}
+
+.subtitle{
+    color:#6b7280;
+    margin-bottom:30px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.inputGroup{
+    display:flex;
+    flex-direction:column;
+}
+
+.inputGroup label{
+    margin-bottom:8px;
+    font-weight:500;
+}
+
+.inputGroup input{
+    height:48px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:10px;
+
+    padding:0 14px;
+
+    font-size:15px;
+
+    outline:none;
+}
+
+.inputGroup input:focus{
+    border-color:#111827;
+}
+
+button{
+    height:50px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#111827;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+button:hover{
+    background:#1f2937;
+}
+
+.bottomText{
+    text-align:center;
+
+    margin-top:20px;
+
+    color:#6b7280;
+}
+
+.bottomText span{
+    color:#111827;
+    font-weight:600;
+    cursor:pointer;
+}
