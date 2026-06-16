@@ -1,0 +1,12 @@
+.o{
+  display:flex;
+  border: 1px solid black;
+
+}
+.pro{
+  display: flex;
+  border: 1px solid black;
+  width: 80%;
+  justify-content: center;
+  
+}

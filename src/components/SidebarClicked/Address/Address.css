@@ -1,0 +1,114 @@
+.savedAddressContainer{
+    width:1000px;
+    padding:20px;
+}
+
+.savedAddressHeader{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.savedAddressHeader h2{
+    margin:0;
+    font-size:32px;
+    color:#111827;
+}
+
+.addAddressBtn{
+    padding:14px 22px;
+    border:none;
+    background:#111827;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+    transition:.2s;
+}
+
+.addAddressBtn:hover{
+    background:#1f2937;
+}
+
+.addressCards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.addressCard{
+    width:420px;
+    min-height:180px;
+
+    border:1px solid #d1d5db;
+    border-radius:16px;
+
+    padding:20px;
+
+    background:white;
+
+    transition:.2s;
+}
+
+.addressCard:hover{
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.cardTop{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.cardTop h3{
+    margin:0;
+    color:#111827;
+}
+
+.cardTop span{
+    background:#f3f4f6;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.addressCard p{
+    margin-top:15px;
+    color:#4b5563;
+    line-height:1.6;
+}
+
+.cardBottom{
+    margin-top:20px;
+    border-top:1px solid #e5e7eb;
+    padding-top:12px;
+
+    font-weight:600;
+    color:#111827;
+}
+
+.overlay{
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100vw;
+    height:100vh;
+
+    background:rgba(0,0,0,0.45);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    z-index:1000;
+}
+
+.popup{
+    background:white;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}

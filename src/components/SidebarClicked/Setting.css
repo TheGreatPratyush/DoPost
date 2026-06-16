@@ -1,0 +1,130 @@
+.accountSetting{
+    width: 80%;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.bor{
+    border-bottom: 1px solid #e5e7eb;
+    padding: 20px 30px;
+}
+
+.bor h2{
+    margin: 0;
+    color: #111827;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.settingsProfileSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 20px;
+}
+
+.settingsLogo{
+    width: 110px;
+    height: 110px;
+
+    border-radius: 50%;
+
+    background: #ef4444;
+    color: white;
+
+    font-size: 38px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    box-shadow: 0 6px 16px rgba(239,68,68,.3);
+}
+
+.settingsLogo::after{
+    content: "";
+
+    position: absolute;
+
+    bottom: -18px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 0;
+    height: 0;
+
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 24px solid #ef4444;
+}
+
+.settingsInfo{
+    text-align: center;
+    padding: 25px 0 35px;
+}
+
+.userName{
+    margin: 0;
+
+    font-size: 42px;
+    font-weight: 700;
+
+    color: #374151;
+}
+
+.userPhone{
+    margin-top: 10px;
+
+    font-size: 18px;
+
+    color: #9ca3af;
+}
+
+.log{
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 20px;
+
+    padding: 25px;
+}
+
+.delete,
+.logout{
+    padding: 12px 24px;
+
+    border-radius: 10px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.logout{
+    background: #111827;
+    color: white;
+    border: none;
+}
+
+.logout:hover{
+    background: #1f2937;
+}
+
+.delete{
+    background: white;
+    color: #ef4444;
+    border: 1px solid #ef4444;
+}
+
+.delete:hover{
+    background: #fef2f2;
+}

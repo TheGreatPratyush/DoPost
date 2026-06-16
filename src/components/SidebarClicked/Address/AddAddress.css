@@ -1,0 +1,100 @@
+.formContainer{
+    width:650px;
+    padding:30px;
+}
+
+.formContainer h2{
+    margin-bottom:25px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+label{
+    display:block;
+    margin-bottom:5px;
+}
+
+input{
+    width:100%;
+    height:42px;
+
+    padding:0 10px;
+
+    box-sizing:border-box;
+
+    border:1px solid #d1d5db;
+    border-radius:8px;
+}
+
+.contactinside{
+    display:flex;
+    gap:20px;
+    margin-bottom:15px;
+}
+
+.contactinside > div{
+    flex:1;
+}
+
+.detailedAddress{
+    margin-bottom:20px;
+}
+
+.pincode{
+    display:flex;
+    gap:15px;
+}
+
+.pincode > div{
+    flex:1;
+}
+
+.saveBtn{
+    align-self:flex-end;
+
+    padding:12px 24px;
+
+    border:none;
+    border-radius:8px;
+
+    background:#111827;
+    color:white;
+
+    cursor:pointer;
+}
+.addressTypeSection{
+    margin-top:10px;
+}
+
+.addressTypes{
+    display:flex;
+    gap:25px;
+    margin-top:10px;
+}
+
+.typeOption{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    font-size:15px;
+    cursor:pointer;
+}
+
+.typeOption input{
+    width:auto;
+    height:auto;
+    margin:0;
+}
+
+.otherField{
+    margin-top:15px;
+}
+
+.otherField input{
+    margin-top:5px;
+}
